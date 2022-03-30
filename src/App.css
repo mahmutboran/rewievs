@@ -1,0 +1,100 @@
+.App {
+  text-align: center;
+}
+
+
+
+
+
+/* Container */
+body{
+  background-color: #F1F5F8;
+  display: grid;
+  place-items: center;
+}
+
+.review{
+  background-color: #FFFFFF;
+  margin: 1rem;
+  padding: 1.5rem 2rem;
+  border-radius: .25rem;
+  box-shadow: 0 5px 15px rgb(0 0 0 /10%);
+  transition: all .3s linear;
+
+}
+/* header */
+.underline {
+  height: 0.25rem;
+  width: 5rem;
+  background: #49A6E9;
+  justify-content: center;
+
+
+  }
+
+/* images */
+
+img{
+width: 100%;
+height: 100%;
+object-fit: cover;
+display: block;
+border-radius: 50%;
+position: relative;
+
+
+}
+
+.img-container{
+
+  width: 150px;
+  height: 150px;
+  position: relative;
+  border-radius: 50%;
+  margin: 0 auto 1.5rem ;
+  
+}
+.img-container:before{
+  content:"";
+  width: 100%;
+  height: 100%;
+  top: -0.25rem;
+  right: -0.25rem;
+  position:absolute;
+  border-radius: 50%;
+  background-color: #49A6E9;
+ 
+}
+.quote-icon{
+position: absolute;
+border-radius:50% ;
+background-color: #49A6E9;
+top: 0;
+left: 0;
+width: 2.5rem;
+height: 2.5rem;
+transform: translateY(25%);
+color: white;
+display: grid ;
+place-items: center;
+
+  
+}
+
+
+/* info */
+
+.jobTitle{
+  text-transform: uppercase;
+  color:#49A6E9 ;
+}
+
+.icon,.surprise{
+color:#49A6E9  ;
+border: none;
+background-color: white;
+transition: all .3s linear;
+}
+.surprise{
+  margin-top: 1rem;
+}
